@@ -1,0 +1,364 @@
+/*
+Theme neme: It Software,
+Author: Tech Soft It
+Author URI: www.techsoftit.com
+Description: Software is a multipurpose Free WordPress Theme.
+Version: 1.0.0
+Text Domain: itsoft
+Tags: Software;
+*/
+
+@font-face {
+  font-family: 'SourceSansPro';
+  src:url('../asset/font/SourceSansPro-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+  font-weight: bold;
+}
+
+header {
+  padding: 10px 0;
+}
+
+.main_menu .menu ul {
+    padding: 0;
+    margin: auto;
+    list-style: none;
+    justify-content: center;
+  }
+}
+
+
+
+header .navbar a {
+  padding-bottom: 15px;
+  
+}
+
+.navbar-brand {
+  padding-top: 0;
+}
+.navbar .main_menu ul li a {
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    transition: .5s;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    font-size: 16px;
+}
+
+
+.nav-link:hover , .navbar .main_menu ul li a:hover{
+  color: #00bd8f
+}
+
+.nav-link {
+  color: #000;
+}
+
+
+a.nav-link.btn-sm.btn.btn-register {
+    border: 2px solid green;
+    padding: 2px 30px;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-collapse {
+    background-color: #000;
+    padding: 0 20px;
+  }
+  .nav-item a {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+  }
+}
+
+.navbar .collapse .row  .navbar-nav {
+  justify-content: center;
+}
+
+@media only screen and (max-width: 540px){
+  .navbar .main_menu ul li a {
+    color: #fff;
+  }
+  .main_menu ul li {
+    padding: 5px 0;
+  }
+  a.nav-link.btn-sm.btn.btn-register {
+    margin-left: 0;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px){
+ .navbar .main_menu ul li a {
+    color: #fff;
+  }
+  .main_menu ul li {
+    padding: 5px 0;
+  }
+  a.nav-link.btn-sm.btn.btn-register {
+    margin-left: 0;
+    font-size: 18px;
+  }
+}
+
+/*--------------------------*/
+
+.hero-section {
+  background-image: url('assets/img/hero-bg.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 38vh 0;
+
+}
+
+
+.content .title h1{
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: montserrat
+}
+
+.content {
+  text-transform: uppercase;
+}
+
+.content .sub-title h2{
+    font-size: 56px;
+    color: #F6F7F6;
+    font-weight: 300;
+    margin-bottom: 0;
+    font-family: montserrat;
+    
+}
+
+.content .time h3 {
+    color: #bfe47d;
+    font-size: 40px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    font-family: montserrat;
+}
+
+.content .text span {
+    font-weight: 500;
+    font-size: 30px;
+    color: #ffdf15;
+    font-family: montserrat;
+}
+
+.hero-section .col-lg-9 {
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 540px){
+  .hero-section {
+    padding: 3rem 0;
+    background-size: cover;
+  }
+  .hero-section .title h1, .content .sub-title h2{
+    font-size: 20px;
+  }
+
+  .content .time h3 {
+    font-size: 16px
+  }
+  .content .text span {
+    font-size: 14px;
+  }
+
+  .hero-section .col-lg-9 {
+    text-align: right;
+  }
+}
+
+/*==================*/
+
+.about {
+  height: 927px;
+  padding-top: 80px; 
+  margin-bottom: 0;
+  background-image: url('assets/img/about-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; 
+}
+@media (max-width: 768px) {
+  .about {
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.about p:last-child {
+  margin-bottom: 0;
+}
+.about p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    margin-top: 35px;
+}
+
+.about h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 0;
+    font-family: "Source Sans Pro";
+}
+.about strong {
+    font-size: 36px;
+    font-weight: 500;
+    color: #299929;
+    font-family: "Source Sans Pro";
+}
+
+.about .container {
+  max-width: 50rem;
+}
+
+.about .about-btn {
+  margin-top: 3rem;
+}
+
+
+footer {
+    background: #000;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #fff;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+/*====================*/
+
+.form-section {
+  height: 776px;
+  background-image: url('assets/img/form-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; 
+  
+}
+.form-section .container {
+  padding-top: 15vh;
+}
+.form-section .form-control {
+  background-color: #0808087a;
+  color: #fff;
+}
+
+.form-section ::placeholder {
+  color: #fff;
+}
+
+@media only screen and (min-width: 960px) {
+  .form-section .container{
+      width: 30%;
+  }
+}
+
+.form-section .title h3 {
+  color: #FFE401;
+  text-align: center;
+  font-size: 25px;
+
+}
+
+.form-section .form-btn {
+    width: 100%;
+    background-color: #FFE401;
+    color: #000;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.form-section .title {
+    margin-bottom: 38px;
+}
+
+/*======================*/
+.recent-news {
+  padding: 3rem 0;
+}
+
+.recent-news .post-img img {
+  width: 100%;
+  padding: 20px;
+}
+
+.recent-news .post-text {
+    margin: 15px 0;
+}
+
+.recent-news .title {
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.recent-news  .post-title {
+    text-transform: uppercase;
+    
+}
+
+.recent-news  .post-title strong{
+  color: #767676;
+  font-size: 18px;
+}
+
+.recent-news .title span {
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 540px) {
+  .recent-news {
+    padding-top: 3rem;
+    padding-bottom: 0;
+  }
+  .recent-news .title {
+    font-size: 25px;
+  }
+}
+
+.recent-news .post-title a {
+    text-decoration: none;
+    color: #000;
+}
+
+.single-post .post-img img {
+    width: 100%;
+}
+
+.single-post .post-title strong {
+
+  font-size: 25px;
+  color: #000;
+}
+
+.single-post .post-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.single-post .post-text {
+  margin: 20px 0;
+}
+
+.single-post {
+  margin: 50px 0;
+}
+
+.single-post .row .col-md-9{
+  background-color: #f6f6f6;
+}
